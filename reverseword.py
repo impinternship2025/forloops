@@ -9,8 +9,8 @@ def reverse_each_word(sentence):
         reverse_words = []
         for word in words:
             reverse_word = ""
-            for char in word:
-                reverse_word = char + reverse_word
+            for letter in word:
+                reverse_word = letter + reverse_word
             reverse_words.append(reverse_word)
 
         return " ".join(reverse_words)
