@@ -22,5 +22,3 @@ sentence = "Anush is at the office today"
 result = reverse_each_word(sentence)
 if result is not None:
     print("Sentence with each word reversed:", result)
-
-
