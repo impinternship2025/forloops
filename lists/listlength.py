@@ -1,3 +1,5 @@
-cars = ["mercedes","bmw","honda","nissan","toyota"]
+# Finding length of a list using the built-in len() function
 
-print(len(cars))
+cars = ["mercedes", "bmw", "honda", "nissan", "toyota"]
+
+print(f"The number of cars in the list is: {len(cars)}")

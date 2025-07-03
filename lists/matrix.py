@@ -1,3 +1,5 @@
+#Given a list matrix = [[1, 2], [3, 4], [5, 6]], write a function to print each row and its sum.
+
 def print_the_rows_and_sums(matrix):
 
     for row in matrix:

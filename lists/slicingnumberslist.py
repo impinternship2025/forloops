@@ -1,4 +1,8 @@
-#Slicing letters in a list using slicing index
+#Given the list [“a”, “b”, “c”, “d”, “e”, “f”], use slicing to:
+# Print the first three elements
+# Print the last two elements
+# Print every alternate element
+
 
 letters = ["a","b","c","d","e","f"]
 

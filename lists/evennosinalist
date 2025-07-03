@@ -1,4 +1,4 @@
-#Finding even numbers in a list using list comprehension 
+#Use list comprehension to create a new list that contains only the even numbers from the list [10, 15, 20, 25, 30].
 
 numbers = [10,15,20,25,30]
 

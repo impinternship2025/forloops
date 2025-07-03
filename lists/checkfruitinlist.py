@@ -1,4 +1,4 @@
-#Checking if apple is present in the fruit list
+#Write a program that checks if “apple” is in the list [“banana”, “cherry”, “apple”, “mango”] and prints an appropriate message.
 
 fruits = ["banana","cherry","apple","mango"]
 

@@ -1,9 +1,9 @@
-# Printing 2nd and last item in a list
+# Printing the 2nd and last fruit in the list
 
-fruits = ["Orange","Guava","Apple","Banana","Watermelon"]
+fruits = ["Orange", "Guava", "Apple", "Banana", "Watermelon"]
 
 for i in range(len(fruits)):
     if i == 1:
-        print("2nd fruit:",fruits[i])
+        print(f"The second fruit in the list is: {fruits[i]}")
     if i == len(fruits) - 1:
-        print("Last fruit:",fruits[i])
+        print(f"The last fruit in the list is: {fruits[i]}")

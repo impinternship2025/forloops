@@ -1,3 +1,5 @@
+#Write a function that returns the length of any given list
+
 def get_list_length(lst):
     count = 0
     for i in lst:

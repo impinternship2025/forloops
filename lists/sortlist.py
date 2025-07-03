@@ -1,5 +1,5 @@
-#Sorting list alphabetically
+#Sort a List
 
 fruits = ["orange", "mango", "kiwi", "pineapple", "banana"]
 fruits.sort()
-print(fruits)
+print(f"Fruits sorted alphabetically: {fruits}")

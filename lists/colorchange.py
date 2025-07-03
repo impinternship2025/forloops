@@ -4,4 +4,4 @@ colors = ["red","green","blue"]
 
 colors[1] = "yellow"
 
-print(colors)
+print(f"The new list after changing the second color to 'yellow': {colors}")

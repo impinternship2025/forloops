@@ -1,3 +1,5 @@
+#Count how many times “apple” appears in the list: [“apple”, “banana”, “apple”, “cherry”, “apple”].
+
 fruits = ["Apple","Banana","Apple","Cherry","Apple"]
 apple_count = 0
 

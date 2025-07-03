@@ -1,5 +1,7 @@
-fruits = ["Orange","Pineapple","Guava","Apple"]
+#Change an Item in a List
 
-fruits[1:3] = ['Watermelon','Mango']
+fruits = ["Orange", "Pineapple", "Guava", "Apple"]
 
-print(fruits)
+fruits[1:3] = ["Watermelon", "Mango"]
+
+print(f"Updated fruit list after replacement: {fruits}")

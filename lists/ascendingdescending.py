@@ -1,4 +1,4 @@
-#Sorting a list in ascending and descending order
+#Given the list ages = [34, 21, 56, 19, 40], sort the list in ascending and then in descending order.
 
 numbers = [45,79,13,56,79,202,12]
 

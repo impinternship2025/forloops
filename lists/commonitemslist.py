@@ -1,3 +1,6 @@
+#Write a function that takes two lists and returns a list of common elements between them.
+
+
 def common_items_in_2_lists(numbers1, numbers2):
     common_items = []
 

@@ -4,4 +4,5 @@
 students = ["Anjali", "Ravi", "Meera"]
 
 students_copy = students.copy()
-print(students_copy)
+
+print(f"Copied list (unchanged): {students_copy}")
