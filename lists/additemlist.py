@@ -1,7 +1,9 @@
-#Change an Item in a List
+#Add an item to the list
+def add_fruit(fruits, new_fruit):
+    fruits.append(new_fruit)
+    print(f"Updated fruit list after adding '{new_fruit}': {fruits}")
 
 fruits = ["Apple", "Cherry", "Orange"]
 
-fruits.append("Strawberry")
 
-print(f"Updated fruit list after adding 'Strawberry': {fruits}")
+add_fruit(fruits, "Strawberry")

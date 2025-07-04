@@ -1,10 +1,14 @@
 #Count how many times “apple” appears in the list: [“apple”, “banana”, “apple”, “cherry”, “apple”].
 
-fruits = ["Apple","Banana","Apple","Cherry","Apple"]
-apple_count = 0
+def count_fruit_in_list(fruit_list, fruit_to_count):
+    count = 0
+    for fruit in fruit_list:
+        if fruit == fruit_to_count:
+            count += 1
+    print(f"The number of '{fruit_to_count}' in the list is:", count)
 
-for fruit in fruits:
-    if fruit == "Apple":
-        apple_count += 1
 
-print("The number of apples in this list are:",apple_count)
+fruits = ["Apple", "Banana", "Apple", "Cherry", "Apple"]
+
+
+count_fruit_in_list(fruits, "Apple")

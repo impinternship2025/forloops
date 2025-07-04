@@ -1,9 +1,12 @@
 #Combine list1 = [1, 2, 3] and list2 = [4, 5, 6] into a new list and print the result.
 
-numbers1 = [1,2,3]
-numbers2 = [4,5,6]
 
-for x in numbers2:
-    numbers1.append(x)
+def combine_student_batches(batch_a, batch_b):
+    for roll in batch_b:
+        batch_a.append(roll)
+    print("Combined roll numbers:", batch_a)
 
-print("The new combined list is:",numbers1)  
+batch_a = [1, 2, 3]
+batch_b = [4, 5, 6]
+
+combine_student_batches(batch_a, batch_b)

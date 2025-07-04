@@ -1,10 +1,14 @@
 #Given the list ages = [34, 21, 56, 19, 40], sort the list in ascending and then in descending order.
 
-numbers = [45,79,13,56,79,202,12]
 
-numbers.sort()
-print("The numbers sorted in the ascending order are:",numbers) 
+def sort_numbers(numbers):
+    numbers.sort()
+    print("Numbers sorted in ascending order:", numbers)
 
-numbers.sort(reverse = True)
-print("The numbers sorted in the descending order are:",numbers)
+    numbers.sort(reverse=True)
+    print("Numbers sorted in descending order:", numbers)
 
+numbers = [34,21,56,19,40]
+
+
+sort_numbers(numbers)

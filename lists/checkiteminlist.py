@@ -1,8 +1,13 @@
-#Check if Item Exists
+# Check if Item is present in list
 
-colors = ["red","yellow","brown"]
+def check_color_in_list(color_list, color_to_check):
+    if color_to_check in color_list:
+        print(f"Yes, {color_to_check} is present in the list")
+    else:
+        print(f"No, {color_to_check} is not present in the list")
 
-if "green" in colors:
-    print("Yes, Green is present in this list")
-else:
-    print("No, Green is not present in this list")
+
+colors = ["red", "yellow", "brown"]
+
+
+check_color_in_list(colors, "green")

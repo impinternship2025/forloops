@@ -1,5 +1,8 @@
-#Sort a List
+# Sort a list
+def sort_fruit_list(fruit_list):
+    fruit_list.sort()
+    print("Fruits sorted alphabetically:", fruit_list)
 
 fruits = ["orange", "mango", "kiwi", "pineapple", "banana"]
-fruits.sort()
-print(f"Fruits sorted alphabetically: {fruits}")
+
+sort_fruit_list(fruits)

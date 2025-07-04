@@ -1,18 +1,17 @@
 #Write a function that takes two lists and returns a list of common elements between them.
 
-
-def common_items_in_2_lists(numbers1, numbers2):
+def common_items_in_2_lists(kitchenA, kitchenB):
     common_items = []
 
-    for item in numbers1:
-        
-        if item in numbers2 and item not in common_items:
+    for item in kitchenA:
+        if item in kitchenB and item not in common_items:
             common_items.append(item)
 
-    return common_items        
-
-numbers1 = [12,14,17,19]
-numbers2 = [12,18,17,21]
-print("The common items in 2 lists are :",common_items_in_2_lists(numbers1, numbers2)) 
+    return common_items
 
 
+kitchenA = ["Stove", "Spatula", "Basin", "Water Cooler"]
+kitchenB = ["Stove", "Spoons", "Basin", "Fruits"]
+
+
+print("The common items between kitchenA and kitchenB are:", common_items_in_2_lists(kitchenA, kitchenB))
