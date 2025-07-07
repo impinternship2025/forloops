@@ -1,0 +1,8 @@
+#Use list comprehension to create a new list that contains only the even numbers from the list [10, 15, 20, 25, 30].
+
+numbers = [10,15,20,25,30]
+
+even_numbers = [num for num in numbers  if num % 2 == 0]
+
+print("The even numbers in the list are: ", even_numbers)  
+

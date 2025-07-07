@@ -1,0 +1,23 @@
+# Function to print each row and its sum, and also print total sum
+def print_the_rows_and_sums(matrix):
+    total_sum = 0  
+
+    for row in matrix:
+        row_sum = 0  
+
+        
+        for number in row:
+            row_sum += number
+            total_sum += number
+
+       
+        print(row, "Sum =", row_sum)
+
+    
+    print("Total sum of all numbers in the matrix:", total_sum)
+
+
+matrix = [[1, 2], [3, 4], [5, 6]]
+
+
+print_the_rows_and_sums(matrix)
