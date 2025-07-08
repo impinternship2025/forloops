@@ -1,5 +1,4 @@
 #Add a new City in Mahatrashtra called “Thane”
-
 world = {
     "country": [
         {
@@ -49,23 +48,29 @@ world = {
 }
 
 
-def add_thane_to_maharashtra(world):
-    for country in world["country"]:
+def add_thane_to_maharashtra(world, target_country, target_state, city_to_be_added):
+    for country in world.get("country", []):
         if type(country) is not dict:
             continue
 
-        if country.get("name") == "India":
+        if country.get("name") == target_country:
             for state in country.get("state", []):
                 if type(state) is not dict:
                     continue
 
-                if state.get("name") == "Maharashtra":
-                    state.get("cities", []).append({"name": "Thane"})
-                    print("Thane added to Maharashtra successfully!")
+                if state.get("name") == target_state:
+                    state.get("cities", []).append(city_to_be_added)
+                    print(f"{city_to_be_added['name']} added to {target_state} ")
 
-                    print("Cities in Maharashtra after addition:")
+                    print(f"Cities in {target_state} after addition:")
                     for city in state.get("cities", []):
                         print(f"{city['name']}")
+                    return  
 
 
-add_thane_to_maharashtra(world)
+
+target_country = "India"
+target_state = "Maharashtra"
+city_to_be_added = {"name": "Thane"}
+
+add_thane_to_maharashtra(world, target_country, target_state, city_to_be_added)
